@@ -36,5 +36,5 @@ while True:
     password = ''.join(random.choice(chars) for _ in range(password_length))
     print(f"Your password is: {password}")
 
-    time.sleep(5)  # Pause for 5 seconds before clearing the screen
+    time.sleep(15)  # Pause for 15 seconds before clearing the screen
     clear_screen()  # Clear the screen to remove the old generated password
